@@ -71,6 +71,7 @@ pkg> add git@github.com:axgmz/StudentLaw.jl.git
 
 The function `studentcoef` provided by this module is called with:
    ```julia
+   julia> using StudentLaw
    julia> studentcoef(20,0.95)
    ```
 to obtain the Student's coefficient for a two-sided distribution with 20 degrees of freedom. Can be used for a confidence interval within 95%.
