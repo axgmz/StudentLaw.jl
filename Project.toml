@@ -3,11 +3,8 @@ uuid = "4310327c-d828-4f17-9003-2840a54937dd"
 authors = ["Axel Gomez <92367498+axgmz@users.noreply.github.com>"]
 version = "1.0.0"
 
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
 [compat]
-julia = "1.3"
-
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
+julia = "1.6"
